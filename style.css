@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    /* background-image: url(digitalclock.jpg);
+  backdrop-filter: blur(2px); */
+  /* background: rgb(214,110,228);
+  background: linear-gradient(132deg, rgba(214,110,228,1) 25%, rgba(36,214,202,1) 67%); */
+  background: rgb(0,0,0);
+    background: linear-gradient(172deg, rgba(0,0,0,1) 10%, rgba(88,166,169,1) 90%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+.clock-container{
+    display:flex;
+    justify-content: center;
+    padding-top: 50px; 
+    
+}
+#clock{
+    font-size: 8rem;
+    font-family: poppins;
+    color: white;
+    font-weight: bolder;
+}
+h1{
+    background: rgb(245, 245, 245);
+    
+text-align: center;
+color: rgb(13, 13, 13);
+}
